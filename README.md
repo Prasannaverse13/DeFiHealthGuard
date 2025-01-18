@@ -51,7 +51,7 @@ Implementation: `checkNftDuplicates()` method in BitsCrunchService
 
 The BitsCrunch API key is configured in:
 - File: `server/services/bitscrunch.ts`
-- API Key Value: dbea4fc17a5975fae375be12add3d957
+- API Key Value: "your API KEY"
 - Used in: BitsCrunchService constructor
 
 ## Project Structure
@@ -95,7 +95,7 @@ npm install
 2. Set up environment variables:
 - Create a `.env` file with:
 ```
-BITSCRUNCH_API_KEY=dbea4fc17a5975fae375be12add3d957
+BITSCRUNCH_API_KEY= "your API KEY"
 DATABASE_URL=your_database_url
 ```
 
